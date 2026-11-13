@@ -9,7 +9,8 @@ public class TrackerWindow {
 	public TrackerWindow(String title) {
 		frame.setTitle(title);
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		frame.setSize(300, 200);
+		frame.setResizable(false);
+		frame.setSize(1440, 900);
 	}
 
 	public void show() {
