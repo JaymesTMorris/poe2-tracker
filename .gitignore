@@ -1,0 +1,21 @@
+# Maven build output
+target/
+
+# Eclipse (m2e regenerates these from pom.xml)
+.classpath
+.project
+.settings/
+bin/
+.metadata/
+.factorypath
+
+# Compiled / packaged files
+*.class
+*.jar
+*.war
+*.log
+
+# OS / editor
+.DS_Store
+*~
+*.swp
